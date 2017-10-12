@@ -16,9 +16,9 @@
 //隐藏加载动画
 - (void)hideLoadingAnimation;
 
--(void)showLoadFailView;
+- (void)showLoadFailView;
 
--(void)hideLoadFailView;
+- (void)hideLoadFailView;
 
 //点击重试的方法
 - (void)retryButtonClick;
