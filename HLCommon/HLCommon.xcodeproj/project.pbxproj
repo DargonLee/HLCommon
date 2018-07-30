@@ -20,6 +20,13 @@
 		3EDC09601F79372800C7F847 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC095F1F79372800C7F847 /* UIView+Frame.m */; };
 		3EDC09641F79374D00C7F847 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC09631F79374D00C7F847 /* NSString+Size.m */; };
 		C5428FEA5F359141802139F8 /* libPods-HLCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4E471CB5BE0F7AD7E34574 /* libPods-HLCommon.a */; };
+		DC6F9A5E210F00E4009855ED /* BannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A5C210F00E4009855ED /* BannerViewCell.m */; };
+		DC6F9A5F210F00E4009855ED /* HLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A5D210F00E4009855ED /* HLBannerView.m */; };
+		DC6F9A63210F02B1009855ED /* XXYSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A61210F02B1009855ED /* XXYSlider.m */; };
+		DC6F9A6D210F05D1009855ED /* HandleAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A66210F05D1009855ED /* HandleAddressBook.m */; };
+		DC6F9A6E210F05D1009855ED /* ChineseInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A69210F05D1009855ED /* ChineseInclude.m */; };
+		DC6F9A6F210F05D1009855ED /* AddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A6A210F05D1009855ED /* AddressManager.m */; };
+		DC6F9A70210F05D1009855ED /* PersonInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6F9A6B210F05D1009855ED /* PersonInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,20 @@
 		3EDC09631F79374D00C7F847 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		7541FE250892C74DA17C532D /* Pods-HLCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLCommon/Pods-HLCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		CF4E471CB5BE0F7AD7E34574 /* libPods-HLCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6F9A5A210F00E4009855ED /* BannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewCell.h; sourceTree = "<group>"; };
+		DC6F9A5B210F00E4009855ED /* HLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBannerView.h; sourceTree = "<group>"; };
+		DC6F9A5C210F00E4009855ED /* BannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewCell.m; sourceTree = "<group>"; };
+		DC6F9A5D210F00E4009855ED /* HLBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBannerView.m; sourceTree = "<group>"; };
+		DC6F9A61210F02B1009855ED /* XXYSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYSlider.m; sourceTree = "<group>"; };
+		DC6F9A62210F02B1009855ED /* XXYSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYSlider.h; sourceTree = "<group>"; };
+		DC6F9A65210F05D1009855ED /* ChineseInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseInclude.h; sourceTree = "<group>"; };
+		DC6F9A66210F05D1009855ED /* HandleAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleAddressBook.m; sourceTree = "<group>"; };
+		DC6F9A67210F05D1009855ED /* AddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressManager.h; sourceTree = "<group>"; };
+		DC6F9A68210F05D1009855ED /* PersonInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoModel.h; sourceTree = "<group>"; };
+		DC6F9A69210F05D1009855ED /* ChineseInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseInclude.m; sourceTree = "<group>"; };
+		DC6F9A6A210F05D1009855ED /* AddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressManager.m; sourceTree = "<group>"; };
+		DC6F9A6B210F05D1009855ED /* PersonInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoModel.m; sourceTree = "<group>"; };
+		DC6F9A6C210F05D1009855ED /* HandleAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleAddressBook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +138,9 @@
 		3EDC094C1F7935DF00C7F847 /* HLCommon */ = {
 			isa = PBXGroup;
 			children = (
+				DC6F9A64210F05D1009855ED /* AddressBookManager */,
+				DC6F9A60210F02B1009855ED /* Slider */,
+				DC6F9A59210F00E4009855ED /* BannerView */,
 				3EDC095A1F7936CA00C7F847 /* Category */,
 				3EDC094D1F79360900C7F847 /* BaseVC */,
 			);
@@ -187,6 +211,41 @@
 				CF4E471CB5BE0F7AD7E34574 /* libPods-HLCommon.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC6F9A59210F00E4009855ED /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F9A5A210F00E4009855ED /* BannerViewCell.h */,
+				DC6F9A5B210F00E4009855ED /* HLBannerView.h */,
+				DC6F9A5C210F00E4009855ED /* BannerViewCell.m */,
+				DC6F9A5D210F00E4009855ED /* HLBannerView.m */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		DC6F9A60210F02B1009855ED /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F9A62210F02B1009855ED /* XXYSlider.h */,
+				DC6F9A61210F02B1009855ED /* XXYSlider.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		DC6F9A64210F05D1009855ED /* AddressBookManager */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F9A65210F05D1009855ED /* ChineseInclude.h */,
+				DC6F9A66210F05D1009855ED /* HandleAddressBook.m */,
+				DC6F9A67210F05D1009855ED /* AddressManager.h */,
+				DC6F9A68210F05D1009855ED /* PersonInfoModel.h */,
+				DC6F9A69210F05D1009855ED /* ChineseInclude.m */,
+				DC6F9A6A210F05D1009855ED /* AddressManager.m */,
+				DC6F9A6B210F05D1009855ED /* PersonInfoModel.m */,
+				DC6F9A6C210F05D1009855ED /* HandleAddressBook.h */,
+			);
+			path = AddressBookManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,11 +371,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F9A70210F05D1009855ED /* PersonInfoModel.m in Sources */,
+				DC6F9A5F210F00E4009855ED /* HLBannerView.m in Sources */,
+				DC6F9A5E210F00E4009855ED /* BannerViewCell.m in Sources */,
+				DC6F9A6D210F05D1009855ED /* HandleAddressBook.m in Sources */,
 				3EDC09601F79372800C7F847 /* UIView+Frame.m in Sources */,
 				3EDC09571F79361D00C7F847 /* HLCommonEmptyView.m in Sources */,
 				3EBC25F71F75232500DF83FD /* ViewController.m in Sources */,
+				DC6F9A6E210F05D1009855ED /* ChineseInclude.m in Sources */,
 				3EDC09581F79361D00C7F847 /* HLLoadingAnimationView.m in Sources */,
+				DC6F9A63210F02B1009855ED /* XXYSlider.m in Sources */,
 				3EDC09641F79374D00C7F847 /* NSString+Size.m in Sources */,
+				DC6F9A6F210F05D1009855ED /* AddressManager.m in Sources */,
 				3EBC25F41F75232500DF83FD /* AppDelegate.m in Sources */,
 				3EBC25F11F75232500DF83FD /* main.m in Sources */,
 				3EDC09591F79361D00C7F847 /* HLNoNetworkEmptyView.m in Sources */,
