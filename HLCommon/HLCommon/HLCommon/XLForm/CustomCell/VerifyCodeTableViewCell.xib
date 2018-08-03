@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="gzg-dJ-VB0" customClass="VerifyCodeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gzg-dJ-VB0" id="K9g-Ri-e2a">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejg-RY-mCb" userLabel="lineView">
+                        <rect key="frame" x="21" y="61" width="279" height="1"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xcS-Oh-ANR"/>
+                        </constraints>
+                    </view>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pLn-Zd-VGQ" userLabel="textField">
+                        <rect key="frame" x="21" y="20" width="157" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="7vH-Ck-lFj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoK-bK-vCq">
+                        <rect key="frame" x="179" y="19" width="115" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="cot-kq-zwT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="tintColor" red="0.1529411765" green="0.73725490199999999" blue="0.50196078430000002" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="didTouchButton:" destination="gzg-dJ-VB0" eventType="touchUpInside" id="KNH-07-Oxv"/>
+                        </connections>
+                    </button>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="exT-Ll-MaQ" userLabel="verticalLine">
+                        <rect key="frame" x="179" y="3" width="1" height="63"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="jzR-Af-nJB"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-8k-az6">
+                        <rect key="frame" x="21" y="0.0" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.3921568627" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sgg-8k-az6" firstAttribute="top" secondItem="K9g-Ri-e2a" secondAttribute="top" id="3ff-U6-Y11"/>
+                    <constraint firstItem="GoK-bK-vCq" firstAttribute="leading" secondItem="pLn-Zd-VGQ" secondAttribute="trailing" constant="1" id="6YP-xX-aWZ"/>
+                    <constraint firstItem="exT-Ll-MaQ" firstAttribute="leading" secondItem="GoK-bK-vCq" secondAttribute="leading" id="AeW-1O-rAx"/>
+                    <constraint firstItem="exT-Ll-MaQ" firstAttribute="top" secondItem="K9g-Ri-e2a" secondAttribute="topMargin" constant="-8" id="Fvu-bC-y8I"/>
+                    <constraint firstItem="GoK-bK-vCq" firstAttribute="centerY" secondItem="K9g-Ri-e2a" secondAttribute="centerY" id="KxB-rM-Yb0"/>
+                    <constraint firstItem="ejg-RY-mCb" firstAttribute="trailing" secondItem="K9g-Ri-e2a" secondAttribute="trailing" constant="-20" id="L5Y-91-fHx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ejg-RY-mCb" secondAttribute="bottom" constant="-3" id="MRX-Nm-a56"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="exT-Ll-MaQ" secondAttribute="bottom" constant="-7" id="VIs-yV-grF"/>
+                    <constraint firstItem="GoK-bK-vCq" firstAttribute="trailing" secondItem="K9g-Ri-e2a" secondAttribute="trailingMargin" constant="-10" id="bJm-MH-rD8"/>
+                    <constraint firstItem="ejg-RY-mCb" firstAttribute="leading" secondItem="pLn-Zd-VGQ" secondAttribute="leading" id="hbc-oo-X7Y"/>
+                    <constraint firstItem="pLn-Zd-VGQ" firstAttribute="centerY" secondItem="K9g-Ri-e2a" secondAttribute="centerY" id="thZ-ci-A8i"/>
+                    <constraint firstItem="sgg-8k-az6" firstAttribute="leading" secondItem="pLn-Zd-VGQ" secondAttribute="leading" id="uIg-FE-tfJ"/>
+                    <constraint firstItem="pLn-Zd-VGQ" firstAttribute="leading" secondItem="K9g-Ri-e2a" secondAttribute="leadingMargin" constant="5" id="zd7-Ns-loC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="button" destination="GoK-bK-vCq" id="39M-v7-bP8"/>
+                <outlet property="buttonTrailing" destination="bJm-MH-rD8" id="vYf-1m-wIj"/>
+                <outlet property="textField" destination="pLn-Zd-VGQ" id="tRe-Yv-KW3"/>
+                <outlet property="textFieldLeading" destination="zd7-Ns-loC" id="xcD-R6-KNT"/>
+                <outlet property="titleLabel" destination="sgg-8k-az6" id="9pW-HF-Lqi"/>
+            </connections>
+            <point key="canvasLocation" x="415" y="169"/>
+        </tableViewCell>
+    </objects>
+</document>
