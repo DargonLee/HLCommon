@@ -61,6 +61,9 @@
 		DC811B962114041600D3146A /* VerifyCodeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC811B712114041600D3146A /* VerifyCodeTableViewCell.m */; };
 		DC811B972114041600D3146A /* PlainButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC811B722114041600D3146A /* PlainButtonCell.m */; };
 		DC811B982114041600D3146A /* PlainButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC811B732114041600D3146A /* PlainButtonCell.xib */; };
+		DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC60212D785800C9161D /* XXYTabBar.m */; };
+		DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */; };
+		DCAFCC66212D785800C9161D /* XXYMainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +172,12 @@
 		DC811B742114041600D3146A /* XXYYiduInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYYiduInputCell.h; sourceTree = "<group>"; };
 		DC811B752114041600D3146A /* TextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableViewCell.h; sourceTree = "<group>"; };
 		DC811B762114041600D3146A /* SpeechCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechCodeCell.h; sourceTree = "<group>"; };
+		DCAFCC5E212D785800C9161D /* XXYBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYBaseNavigationViewController.h; sourceTree = "<group>"; };
+		DCAFCC5F212D785800C9161D /* XXYMainTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYMainTabbarViewController.h; sourceTree = "<group>"; };
+		DCAFCC60212D785800C9161D /* XXYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYTabBar.m; sourceTree = "<group>"; };
+		DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYBaseNavigationViewController.m; sourceTree = "<group>"; };
+		DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYMainTabbarViewController.m; sourceTree = "<group>"; };
+		DCAFCC63212D785800C9161D /* XXYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYTabBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,14 +260,8 @@
 		3EDC094D1F79360900C7F847 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				3EDC094E1F79361D00C7F847 /* HLBaseViewController.h */,
-				3EDC094F1F79361D00C7F847 /* HLBaseViewController.m */,
-				3EDC09501F79361D00C7F847 /* HLCommonEmptyView.h */,
-				3EDC09511F79361D00C7F847 /* HLCommonEmptyView.m */,
-				3EDC09521F79361D00C7F847 /* HLLoadingAnimationView.h */,
-				3EDC09531F79361D00C7F847 /* HLLoadingAnimationView.m */,
-				3EDC09541F79361D00C7F847 /* HLNoNetworkEmptyView.h */,
-				3EDC09551F79361D00C7F847 /* HLNoNetworkEmptyView.m */,
+				DCAFCC67212D786500C9161D /* View */,
+				DCAFCC5D212D785800C9161D /* Main */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -478,6 +481,34 @@
 			path = CustomCell;
 			sourceTree = "<group>";
 		};
+		DCAFCC5D212D785800C9161D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DCAFCC5E212D785800C9161D /* XXYBaseNavigationViewController.h */,
+				DCAFCC5F212D785800C9161D /* XXYMainTabbarViewController.h */,
+				DCAFCC60212D785800C9161D /* XXYTabBar.m */,
+				DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */,
+				DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */,
+				DCAFCC63212D785800C9161D /* XXYTabBar.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DCAFCC67212D786500C9161D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC094E1F79361D00C7F847 /* HLBaseViewController.h */,
+				3EDC094F1F79361D00C7F847 /* HLBaseViewController.m */,
+				3EDC09501F79361D00C7F847 /* HLCommonEmptyView.h */,
+				3EDC09511F79361D00C7F847 /* HLCommonEmptyView.m */,
+				3EDC09521F79361D00C7F847 /* HLLoadingAnimationView.h */,
+				3EDC09531F79361D00C7F847 /* HLLoadingAnimationView.m */,
+				3EDC09541F79361D00C7F847 /* HLNoNetworkEmptyView.h */,
+				3EDC09551F79361D00C7F847 /* HLNoNetworkEmptyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -622,6 +653,7 @@
 				3EDC09601F79372800C7F847 /* UIView+Frame.m in Sources */,
 				3EDC09571F79361D00C7F847 /* HLCommonEmptyView.m in Sources */,
 				DC811B882114041600D3146A /* XLFormRegexValidator.m in Sources */,
+				DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */,
 				DC811B942114041600D3146A /* RightButtonCell.m in Sources */,
 				DC811B822114041600D3146A /* NSPredicate+XLFormAdditions.m in Sources */,
 				DC811B7A2114041600D3146A /* XLFormSwitchCell.m in Sources */,
@@ -643,10 +675,12 @@
 				DC811B852114041600D3146A /* NSString+XLFormAdditions.m in Sources */,
 				DC811B892114041600D3146A /* XLFormValidationStatus.m in Sources */,
 				DC6F9A6F210F05D1009855ED /* AddressManager.m in Sources */,
+				DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */,
 				DC811B7C2114041600D3146A /* XLFormSectionDescriptor.m in Sources */,
 				DC811B782114041600D3146A /* RegisterViewController.m in Sources */,
 				DC811B902114041600D3146A /* SpeechCodeCell.m in Sources */,
 				3EBC25F41F75232500DF83FD /* AppDelegate.m in Sources */,
+				DCAFCC66212D785800C9161D /* XXYMainTabbarViewController.m in Sources */,
 				3EBC25F11F75232500DF83FD /* main.m in Sources */,
 				3EDC09591F79361D00C7F847 /* HLNoNetworkEmptyView.m in Sources */,
 				3EDC09561F79361D00C7F847 /* HLBaseViewController.m in Sources */,
