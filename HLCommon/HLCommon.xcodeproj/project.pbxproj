@@ -64,6 +64,18 @@
 		DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC60212D785800C9161D /* XXYTabBar.m */; };
 		DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */; };
 		DCAFCC66212D785800C9161D /* XXYMainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */; };
+		DCFA35A5212FA0D100AF16D2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A0212FA0D000AF16D2 /* WebViewController.m */; };
+		DCFA35A6212FA0D100AF16D2 /* ScriptMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A1212FA0D000AF16D2 /* ScriptMessageHandler.m */; };
+		DCFA35A7212FA0D100AF16D2 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A2212FA0D000AF16D2 /* UIWebViewController.m */; };
+		DCFA35A8212FA0D100AF16D2 /* WebTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A3212FA0D000AF16D2 /* WebTool.m */; };
+		DCFA35AC212FA58D00AF16D2 /* XXYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35AB212FA58D00AF16D2 /* XXYButton.m */; };
+		DCFA35B0212FA5AB00AF16D2 /* XXYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35AE212FA5AB00AF16D2 /* XXYTextView.m */; };
+		DCFA35B8212FA8FD00AF16D2 /* UIColor+hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35B7212FA8FD00AF16D2 /* UIColor+hexColor.m */; };
+		DCFA35BC212FA97E00AF16D2 /* AnimationContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35BB212FA97E00AF16D2 /* AnimationContoller.m */; };
+		DCFA35C2212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35BE212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.m */; };
+		DCFA35C3212FAA1200AF16D2 /* UIImage+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35C0212FAA1200AF16D2 /* UIImage+Theme.m */; };
+		DCFA35C9212FAB3500AF16D2 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35C5212FAB3500AF16D2 /* NSDate+Category.m */; };
+		DCFA35CA212FAB3500AF16D2 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35C8212FAB3500AF16D2 /* NSDateFormatter+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +190,33 @@
 		DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYBaseNavigationViewController.m; sourceTree = "<group>"; };
 		DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYMainTabbarViewController.m; sourceTree = "<group>"; };
 		DCAFCC63212D785800C9161D /* XXYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYTabBar.h; sourceTree = "<group>"; };
+		DCFA359D212FA0D000AF16D2 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		DCFA359E212FA0D000AF16D2 /* ScriptMessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptMessageHandler.h; sourceTree = "<group>"; };
+		DCFA359F212FA0D000AF16D2 /* WebTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebTool.h; sourceTree = "<group>"; };
+		DCFA35A0212FA0D000AF16D2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DCFA35A1212FA0D000AF16D2 /* ScriptMessageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptMessageHandler.m; sourceTree = "<group>"; };
+		DCFA35A2212FA0D000AF16D2 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		DCFA35A3212FA0D000AF16D2 /* WebTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebTool.m; sourceTree = "<group>"; };
+		DCFA35A4212FA0D000AF16D2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DCFA35AA212FA58D00AF16D2 /* XXYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYButton.h; sourceTree = "<group>"; };
+		DCFA35AB212FA58D00AF16D2 /* XXYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYButton.m; sourceTree = "<group>"; };
+		DCFA35AE212FA5AB00AF16D2 /* XXYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYTextView.m; sourceTree = "<group>"; };
+		DCFA35AF212FA5AB00AF16D2 /* XXYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYTextView.h; sourceTree = "<group>"; };
+		DCFA35B2212FA64E00AF16D2 /* NHDefaultHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDefaultHeader.h; sourceTree = "<group>"; };
+		DCFA35B3212FA64E00AF16D2 /* FormCellTagConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormCellTagConstants.h; sourceTree = "<group>"; };
+		DCFA35B4212FA6FB00AF16D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DCFA35B6212FA8FD00AF16D2 /* UIColor+hexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexColor.h"; sourceTree = "<group>"; };
+		DCFA35B7212FA8FD00AF16D2 /* UIColor+hexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexColor.m"; sourceTree = "<group>"; };
+		DCFA35BA212FA97E00AF16D2 /* AnimationContoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationContoller.h; sourceTree = "<group>"; };
+		DCFA35BB212FA97E00AF16D2 /* AnimationContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationContoller.m; sourceTree = "<group>"; };
+		DCFA35BE212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AddForRoundedCorner.m"; sourceTree = "<group>"; };
+		DCFA35BF212FAA1200AF16D2 /* UIImage+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Theme.h"; sourceTree = "<group>"; };
+		DCFA35C0212FAA1200AF16D2 /* UIImage+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Theme.m"; sourceTree = "<group>"; };
+		DCFA35C1212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AddForRoundedCorner.h"; sourceTree = "<group>"; };
+		DCFA35C5212FAB3500AF16D2 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		DCFA35C6212FAB3500AF16D2 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		DCFA35C7212FAB3500AF16D2 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		DCFA35C8212FAB3500AF16D2 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +276,9 @@
 		3EBC25EF1F75232500DF83FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCFA35B1212FA64E00AF16D2 /* Macro */,
 				3EBC25FD1F75232500DF83FD /* LaunchScreen.storyboard */,
+				DCFA35B4212FA6FB00AF16D2 /* PrefixHeader.pch */,
 				3EBC26001F75232500DF83FD /* Info.plist */,
 				3EBC25F01F75232500DF83FD /* main.m */,
 			);
@@ -247,6 +288,9 @@
 		3EDC094C1F7935DF00C7F847 /* HLCommon */ = {
 			isa = PBXGroup;
 			children = (
+				DCFA35AD212FA5A300AF16D2 /* CustomTextView */,
+				DCFA35A9212FA58500AF16D2 /* CustomButton */,
+				DCFA359C212FA0D000AF16D2 /* WebViewController */,
 				DC811B2D2114041600D3146A /* XLForm */,
 				DC6F9A64210F05D1009855ED /* AddressBookManager */,
 				DC6F9A60210F02B1009855ED /* Slider */,
@@ -260,6 +304,7 @@
 		3EDC094D1F79360900C7F847 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				DCFA35B9212FA96800AF16D2 /* Transition */,
 				DCAFCC67212D786500C9161D /* View */,
 				DCAFCC5D212D785800C9161D /* Main */,
 			);
@@ -278,6 +323,7 @@
 		3EDC095B1F7936E500C7F847 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				DCFA35C4212FAB3500AF16D2 /* NSDate */,
 				3EDC09611F79374400C7F847 /* NSString */,
 			);
 			path = Foundation;
@@ -286,6 +332,8 @@
 		3EDC095C1F7936F900C7F847 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				DCFA35BD212FAA1200AF16D2 /* UIImage */,
+				DCFA35B5212FA8E200AF16D2 /* UIColor */,
 				3EDC095D1F79371C00C7F847 /* UIView */,
 			);
 			path = UIKit;
@@ -355,12 +403,12 @@
 		DC811B2D2114041600D3146A /* XLForm */ = {
 			isa = PBXGroup;
 			children = (
-				DC811B2E2114041600D3146A /* Demo */,
 				DC811B332114041600D3146A /* XLForm.h */,
+				DC811B4A2114041600D3146A /* XLForm.m */,
+				DC811B2E2114041600D3146A /* Demo */,
 				DC811B342114041600D3146A /* Cell */,
 				DC811B3C2114041600D3146A /* Descriptors */,
 				DC811B442114041600D3146A /* Controllers */,
-				DC811B4A2114041600D3146A /* XLForm.m */,
 				DC811B4B2114041600D3146A /* Helpers */,
 				DC811B582114041600D3146A /* Validation */,
 				DC811B602114041600D3146A /* CustomCell */,
@@ -509,6 +557,88 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DCFA359C212FA0D000AF16D2 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA359D212FA0D000AF16D2 /* UIWebViewController.h */,
+				DCFA35A2212FA0D000AF16D2 /* UIWebViewController.m */,
+				DCFA35A4212FA0D000AF16D2 /* WebViewController.h */,
+				DCFA35A0212FA0D000AF16D2 /* WebViewController.m */,
+				DCFA359F212FA0D000AF16D2 /* WebTool.h */,
+				DCFA35A3212FA0D000AF16D2 /* WebTool.m */,
+				DCFA359E212FA0D000AF16D2 /* ScriptMessageHandler.h */,
+				DCFA35A1212FA0D000AF16D2 /* ScriptMessageHandler.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		DCFA35A9212FA58500AF16D2 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35AA212FA58D00AF16D2 /* XXYButton.h */,
+				DCFA35AB212FA58D00AF16D2 /* XXYButton.m */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		DCFA35AD212FA5A300AF16D2 /* CustomTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35AF212FA5AB00AF16D2 /* XXYTextView.h */,
+				DCFA35AE212FA5AB00AF16D2 /* XXYTextView.m */,
+			);
+			path = CustomTextView;
+			sourceTree = "<group>";
+		};
+		DCFA35B1212FA64E00AF16D2 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35B2212FA64E00AF16D2 /* NHDefaultHeader.h */,
+				DCFA35B3212FA64E00AF16D2 /* FormCellTagConstants.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		DCFA35B5212FA8E200AF16D2 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35B6212FA8FD00AF16D2 /* UIColor+hexColor.h */,
+				DCFA35B7212FA8FD00AF16D2 /* UIColor+hexColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		DCFA35B9212FA96800AF16D2 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35BA212FA97E00AF16D2 /* AnimationContoller.h */,
+				DCFA35BB212FA97E00AF16D2 /* AnimationContoller.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		DCFA35BD212FAA1200AF16D2 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35BE212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.m */,
+				DCFA35BF212FAA1200AF16D2 /* UIImage+Theme.h */,
+				DCFA35C0212FAA1200AF16D2 /* UIImage+Theme.m */,
+				DCFA35C1212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		DCFA35C4212FAB3500AF16D2 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA35C5212FAB3500AF16D2 /* NSDate+Category.m */,
+				DCFA35C6212FAB3500AF16D2 /* NSDateFormatter+Category.h */,
+				DCFA35C7212FAB3500AF16D2 /* NSDate+Category.h */,
+				DCFA35C8212FAB3500AF16D2 /* NSDateFormatter+Category.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -638,21 +768,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFA35BC212FA97E00AF16D2 /* AnimationContoller.m in Sources */,
 				DC811B832114041600D3146A /* NSExpression+XLFormAdditions.m in Sources */,
 				DC6F9A70210F05D1009855ED /* PersonInfoModel.m in Sources */,
 				DC811B8A2114041600D3146A /* XLFormValidator.m in Sources */,
 				DC811B812114041600D3146A /* XLForm.m in Sources */,
 				DC811B972114041600D3146A /* PlainButtonCell.m in Sources */,
 				DC6F9A5F210F00E4009855ED /* HLBannerView.m in Sources */,
+				DCFA35C3212FAA1200AF16D2 /* UIImage+Theme.m in Sources */,
 				DC811B872114041600D3146A /* UITableViewCell+Helper.m in Sources */,
+				DCFA35B8212FA8FD00AF16D2 /* UIColor+hexColor.m in Sources */,
 				DC6F9A5E210F00E4009855ED /* BannerViewCell.m in Sources */,
 				DC811B922114041600D3146A /* XXYYiduInputCell.m in Sources */,
 				DC811B8B2114041600D3146A /* TextViewCell.m in Sources */,
 				DC811B792114041600D3146A /* XLFormBaseCell.m in Sources */,
+				DCFA35AC212FA58D00AF16D2 /* XXYButton.m in Sources */,
+				DCFA35C2212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.m in Sources */,
 				DC6F9A6D210F05D1009855ED /* HandleAddressBook.m in Sources */,
 				3EDC09601F79372800C7F847 /* UIView+Frame.m in Sources */,
+				DCFA35A7212FA0D100AF16D2 /* UIWebViewController.m in Sources */,
 				3EDC09571F79361D00C7F847 /* HLCommonEmptyView.m in Sources */,
 				DC811B882114041600D3146A /* XLFormRegexValidator.m in Sources */,
+				DCFA35B0212FA5AB00AF16D2 /* XXYTextView.m in Sources */,
 				DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */,
 				DC811B942114041600D3146A /* RightButtonCell.m in Sources */,
 				DC811B822114041600D3146A /* NSPredicate+XLFormAdditions.m in Sources */,
@@ -673,7 +810,9 @@
 				DC6F9A63210F02B1009855ED /* XXYSlider.m in Sources */,
 				3EDC09641F79374D00C7F847 /* NSString+Size.m in Sources */,
 				DC811B852114041600D3146A /* NSString+XLFormAdditions.m in Sources */,
+				DCFA35A8212FA0D100AF16D2 /* WebTool.m in Sources */,
 				DC811B892114041600D3146A /* XLFormValidationStatus.m in Sources */,
+				DCFA35A6212FA0D100AF16D2 /* ScriptMessageHandler.m in Sources */,
 				DC6F9A6F210F05D1009855ED /* AddressManager.m in Sources */,
 				DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */,
 				DC811B7C2114041600D3146A /* XLFormSectionDescriptor.m in Sources */,
@@ -681,9 +820,12 @@
 				DC811B902114041600D3146A /* SpeechCodeCell.m in Sources */,
 				3EBC25F41F75232500DF83FD /* AppDelegate.m in Sources */,
 				DCAFCC66212D785800C9161D /* XXYMainTabbarViewController.m in Sources */,
+				DCFA35CA212FAB3500AF16D2 /* NSDateFormatter+Category.m in Sources */,
+				DCFA35A5212FA0D100AF16D2 /* WebViewController.m in Sources */,
 				3EBC25F11F75232500DF83FD /* main.m in Sources */,
 				3EDC09591F79361D00C7F847 /* HLNoNetworkEmptyView.m in Sources */,
 				3EDC09561F79361D00C7F847 /* HLBaseViewController.m in Sources */,
+				DCFA35C9212FAB3500AF16D2 /* NSDate+Category.m in Sources */,
 				DC811B912114041600D3146A /* TextFieldTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -806,6 +948,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9P23454RQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLCommon/PrefixHeader.pch";
 				INFOPLIST_FILE = HLCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haha.HLCommon;
@@ -819,6 +962,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9P23454RQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLCommon/PrefixHeader.pch";
 				INFOPLIST_FILE = HLCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haha.HLCommon;

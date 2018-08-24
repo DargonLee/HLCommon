@@ -32,7 +32,7 @@
 {
     _imgUrl = imgUrl;
     //[self.imageView sd_setImageWithURL:[NSURL URLWithString:imgUrl] placeholderImage:[UIImage imageNamed:@"placeHolder"]];
-
+    !self.LoadImageBlock ? : self.LoadImageBlock(self.imageView, [NSURL URLWithString:imgUrl]);
 }
 
 @end

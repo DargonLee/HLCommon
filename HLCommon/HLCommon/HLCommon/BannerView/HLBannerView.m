@@ -111,6 +111,7 @@ static NSString *cellID = @"cell";
 {
     BannerViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
     cell.imgUrl = self.imgUrls[indexPath.item%self.imgUrls.count];
+    cell.LoadImageBlock = self.LoadImageBlock;
     return cell;
 }
 

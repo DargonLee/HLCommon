@@ -17,8 +17,19 @@
 
 @interface HLBannerView : UIView
 
-@property (nonatomic,copy) NSArray *imgUrls;
+/**
+ *  用来展示图片的数据源
+ */
+@property (nonatomic,strong) NSArray *imgUrls;
 
+/**
+ *  用于告知外界, 当前滚动到的是哪个广告数据模型
+ */
 @property (nonatomic,weak) id <HLBannerViewDelegate> delegate;
+
+/**
+ *  用于加载图片的代码块, 必须赋值
+ */
+@property (nonatomic,copy) void(^LoadImageBlock)(UIImageView *imageView,NSURL *url);
 
 @end

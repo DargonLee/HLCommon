@@ -12,4 +12,6 @@
 
 @property (nonatomic,copy) NSString *imgUrl;
 
+@property (nonatomic,copy) void(^LoadImageBlock)(UIImageView *imageView,NSURL *url);
+
 @end
