@@ -18,25 +18,9 @@
  *  强指针
  */
 #define StrongSelf(strongSelf) __strong __typeof(weakSelf)strongSelf = weakSelf;
-#define Real(value) ((value)/375.0f*[UIScreen mainScreen].bounds.size.width)
 
 #pragma mark - 颜色
 #define kBaseThemeMainColor [UIColor colorWithRed:0.21f green:0.39f blue:0.93f alpha:1.00f]
-#define kWhiteColor [UIColor whiteColor]
-#define kBlackColor [UIColor blackColor]
-#define kDarkGrayColor [UIColor darkGrayColor]
-#define kLightGrayColor [UIColor lightGrayColor]
-#define kGrayColor [UIColor grayColor]
-#define kRedColor [UIColor redColor]
-#define kGreenColor [UIColor greenColor]
-#define kBlueColor [UIColor blueColor]
-#define kCyanColor [UIColor cyanColor]
-#define kYellowColor [UIColor yellowColor]
-#define kMagentaColor [UIColor magentaColor]
-#define kOrangeColor [UIColor orangeColor]
-#define kPurpleColor [UIColor purpleColor]
-#define kBrownColor [UIColor brownColor]
-#define kClearColor [UIColor clearColor]
 #define kCommonGrayTextColor [UIColor colorWithRed:0.63f green:0.63f blue:0.63f alpha:1.00f]
 #define kCommonRedColor [UIColor colorWithRed:0.91f green:0.33f blue:0.33f alpha:1.00f]
 #define kBgColor kRGBColor(243,245,247)
@@ -68,7 +52,7 @@
 #define kiPhone6P_H 736
 
 /***  判断iPhone X */
-#define KISIphoneX (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size))
+#define kIsIphoneX (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size))
 
 /***  当前屏幕宽度 */
 #define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
@@ -76,22 +60,18 @@
 #define kScreenHeight  [[UIScreen mainScreen] bounds].size.height
 /***  比例值 */
 #define IsIphone6P          kScreenWidth==414
+#define IsIphone6          kScreenWidth==375
 #define SizeScale           (IsIphone6P ? 1.5 : 1)
-/***  粗体 */
+/***  粗体字体适配 */
 #define kBoldFont(size) [UIFont boldSystemFontOfSize:size*SizeScale]
-/***  普通字体 */
+/***  字体适配 */
 #define kFont(size) [UIFont systemFontOfSize:size*SizeScale]
+//宽高适配
+#define Real(value) ((value)*([UIScreen mainScreen].bounds.size.width/375.0f))
 
-#define kLineHeight (1 / [UIScreen mainScreen].scale)
-
-
-
-#define kIsIphoneX (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size))
-
-#pragma mark - 字符串转化
-#define kEmptyStr @""
-#define kIntToStr(i) [NSString stringWithFormat: @"%d", i]
-#define kIntegerToStr(i) [NSString stringWithFormat: @"%ld", i]
+//以6/6s为准宽度缩小系数
+#define kWidthScale(value) ((value)*([UIScreen mainScreen].bounds.size.width/375.0f))
+#define kHeightScale(value) ((value)*([UIScreen mainScreen].bounds.size.height/667.0f))
 
 
 /******************本地存储的一些宏********************/
@@ -104,18 +84,6 @@
 #define kNSNotificationTip @"kNSNotificationTip" //钱包已存在提示
 #define kAccountIndex @"kAccountIndex" //钱包索引
 #define kAccount @"account"//注册邮箱
-
-
-
-
-#define kAlias @"alias"//极光推送别名
-#define kAppKey @"4fd3ee9791ab94238253d03e"//极光推送AppKey
-#ifdef DEBUG
-#define kApsForProduction NO
-#else
-#define kApsForProduction YES
-#endif
-
 
 
 

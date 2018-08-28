@@ -64,6 +64,9 @@
 		DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC60212D785800C9161D /* XXYTabBar.m */; };
 		DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */; };
 		DCAFCC66212D785800C9161D /* XXYMainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */; };
+		DCEDE7202135635500865990 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDE7152135635500865990 /* UIViewController+HUD.m */; };
+		DCEDE7212135635500865990 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDE7192135635500865990 /* UIBarButtonItem+Extension.m */; };
+		DCEDE7232135635500865990 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDE71F2135635500865990 /* UIButton+EnlargeEdge.m */; };
 		DCFA35A5212FA0D100AF16D2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A0212FA0D000AF16D2 /* WebViewController.m */; };
 		DCFA35A6212FA0D100AF16D2 /* ScriptMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A1212FA0D000AF16D2 /* ScriptMessageHandler.m */; };
 		DCFA35A7212FA0D100AF16D2 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFA35A2212FA0D000AF16D2 /* UIWebViewController.m */; };
@@ -190,6 +193,12 @@
 		DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYBaseNavigationViewController.m; sourceTree = "<group>"; };
 		DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYMainTabbarViewController.m; sourceTree = "<group>"; };
 		DCAFCC63212D785800C9161D /* XXYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYTabBar.h; sourceTree = "<group>"; };
+		DCEDE7152135635500865990 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		DCEDE7162135635500865990 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		DCEDE7182135635500865990 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		DCEDE7192135635500865990 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		DCEDE71E2135635500865990 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		DCEDE71F2135635500865990 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
 		DCFA359D212FA0D000AF16D2 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
 		DCFA359E212FA0D000AF16D2 /* ScriptMessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptMessageHandler.h; sourceTree = "<group>"; };
 		DCFA359F212FA0D000AF16D2 /* WebTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebTool.h; sourceTree = "<group>"; };
@@ -332,6 +341,9 @@
 		3EDC095C1F7936F900C7F847 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				DCEDE7172135635500865990 /* UIBarButtonItem */,
+				DCEDE71D2135635500865990 /* UIButton */,
+				DCEDE7142135635500865990 /* UIViewController */,
 				DCFA35BD212FAA1200AF16D2 /* UIImage */,
 				DCFA35B5212FA8E200AF16D2 /* UIColor */,
 				3EDC095D1F79371C00C7F847 /* UIView */,
@@ -557,6 +569,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DCEDE7142135635500865990 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDE7152135635500865990 /* UIViewController+HUD.m */,
+				DCEDE7162135635500865990 /* UIViewController+HUD.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		DCEDE7172135635500865990 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDE7182135635500865990 /* UIBarButtonItem+Extension.h */,
+				DCEDE7192135635500865990 /* UIBarButtonItem+Extension.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		DCEDE71D2135635500865990 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDE71E2135635500865990 /* UIButton+EnlargeEdge.h */,
+				DCEDE71F2135635500865990 /* UIButton+EnlargeEdge.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		DCFA359C212FA0D000AF16D2 /* WebViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -778,9 +817,11 @@
 				DCFA35C3212FAA1200AF16D2 /* UIImage+Theme.m in Sources */,
 				DC811B872114041600D3146A /* UITableViewCell+Helper.m in Sources */,
 				DCFA35B8212FA8FD00AF16D2 /* UIColor+hexColor.m in Sources */,
+				DCEDE7212135635500865990 /* UIBarButtonItem+Extension.m in Sources */,
 				DC6F9A5E210F00E4009855ED /* BannerViewCell.m in Sources */,
 				DC811B922114041600D3146A /* XXYYiduInputCell.m in Sources */,
 				DC811B8B2114041600D3146A /* TextViewCell.m in Sources */,
+				DCEDE7232135635500865990 /* UIButton+EnlargeEdge.m in Sources */,
 				DC811B792114041600D3146A /* XLFormBaseCell.m in Sources */,
 				DCFA35AC212FA58D00AF16D2 /* XXYButton.m in Sources */,
 				DCFA35C2212FAA1200AF16D2 /* UIImage+AddForRoundedCorner.m in Sources */,
@@ -798,6 +839,7 @@
 				DC811B802114041600D3146A /* XLFormOptionsObject.m in Sources */,
 				DC811B7B2114041600D3146A /* XLFormDateCell.m in Sources */,
 				DC811B862114041600D3146A /* UIView+XLFormAdditions.m in Sources */,
+				DCEDE7202135635500865990 /* UIViewController+HUD.m in Sources */,
 				DC811B962114041600D3146A /* VerifyCodeTableViewCell.m in Sources */,
 				DC811B8E2114041600D3146A /* ButtonTableViewCell.m in Sources */,
 				DC811B772114041600D3146A /* LoginViewController.m in Sources */,
