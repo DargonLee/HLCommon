@@ -30,4 +30,6 @@
 
 + (UIColor *)colorWithRGB:(NSInteger)rgb alpha:(CGFloat)alpha;
 
++ (UIColor *)randomColor;
+
 @end

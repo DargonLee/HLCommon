@@ -64,6 +64,8 @@
 		DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC60212D785800C9161D /* XXYTabBar.m */; };
 		DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */; };
 		DCAFCC66212D785800C9161D /* XXYMainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */; };
+		DCC190412150D39200A8C99E /* UINavigationBar+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1903D2150D39200A8C99E /* UINavigationBar+Alpha.m */; };
+		DCC190422150D39200A8C99E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1903E2150D39200A8C99E /* UIImage+Extension.m */; };
 		DCEDE7202135635500865990 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDE7152135635500865990 /* UIViewController+HUD.m */; };
 		DCEDE7212135635500865990 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDE7192135635500865990 /* UIBarButtonItem+Extension.m */; };
 		DCEDE7232135635500865990 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDE71F2135635500865990 /* UIButton+EnlargeEdge.m */; };
@@ -193,6 +195,10 @@
 		DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYBaseNavigationViewController.m; sourceTree = "<group>"; };
 		DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYMainTabbarViewController.m; sourceTree = "<group>"; };
 		DCAFCC63212D785800C9161D /* XXYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYTabBar.h; sourceTree = "<group>"; };
+		DCC1903D2150D39200A8C99E /* UINavigationBar+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Alpha.m"; sourceTree = "<group>"; };
+		DCC1903E2150D39200A8C99E /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		DCC1903F2150D39200A8C99E /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		DCC190402150D39200A8C99E /* UINavigationBar+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Alpha.h"; sourceTree = "<group>"; };
 		DCEDE7152135635500865990 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		DCEDE7162135635500865990 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		DCEDE7182135635500865990 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -313,6 +319,7 @@
 		3EDC094D1F79360900C7F847 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				DCC1903C2150D39200A8C99E /* Category */,
 				DCFA35B9212FA96800AF16D2 /* Transition */,
 				DCAFCC67212D786500C9161D /* View */,
 				DCAFCC5D212D785800C9161D /* Main */,
@@ -545,11 +552,11 @@
 			isa = PBXGroup;
 			children = (
 				DCAFCC5E212D785800C9161D /* XXYBaseNavigationViewController.h */,
-				DCAFCC5F212D785800C9161D /* XXYMainTabbarViewController.h */,
-				DCAFCC60212D785800C9161D /* XXYTabBar.m */,
 				DCAFCC61212D785800C9161D /* XXYBaseNavigationViewController.m */,
+				DCAFCC5F212D785800C9161D /* XXYMainTabbarViewController.h */,
 				DCAFCC62212D785800C9161D /* XXYMainTabbarViewController.m */,
 				DCAFCC63212D785800C9161D /* XXYTabBar.h */,
+				DCAFCC60212D785800C9161D /* XXYTabBar.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -567,6 +574,17 @@
 				3EDC09551F79361D00C7F847 /* HLNoNetworkEmptyView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DCC1903C2150D39200A8C99E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DCC190402150D39200A8C99E /* UINavigationBar+Alpha.h */,
+				DCC1903D2150D39200A8C99E /* UINavigationBar+Alpha.m */,
+				DCC1903F2150D39200A8C99E /* UIImage+Extension.h */,
+				DCC1903E2150D39200A8C99E /* UIImage+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		DCEDE7142135635500865990 /* UIViewController */ = {
@@ -830,6 +848,7 @@
 				DCFA35A7212FA0D100AF16D2 /* UIWebViewController.m in Sources */,
 				3EDC09571F79361D00C7F847 /* HLCommonEmptyView.m in Sources */,
 				DC811B882114041600D3146A /* XLFormRegexValidator.m in Sources */,
+				DCC190422150D39200A8C99E /* UIImage+Extension.m in Sources */,
 				DCFA35B0212FA5AB00AF16D2 /* XXYTextView.m in Sources */,
 				DCAFCC65212D785800C9161D /* XXYBaseNavigationViewController.m in Sources */,
 				DC811B942114041600D3146A /* RightButtonCell.m in Sources */,
@@ -858,6 +877,7 @@
 				DC6F9A6F210F05D1009855ED /* AddressManager.m in Sources */,
 				DCAFCC64212D785800C9161D /* XXYTabBar.m in Sources */,
 				DC811B7C2114041600D3146A /* XLFormSectionDescriptor.m in Sources */,
+				DCC190412150D39200A8C99E /* UINavigationBar+Alpha.m in Sources */,
 				DC811B782114041600D3146A /* RegisterViewController.m in Sources */,
 				DC811B902114041600D3146A /* SpeechCodeCell.m in Sources */,
 				3EBC25F41F75232500DF83FD /* AppDelegate.m in Sources */,
