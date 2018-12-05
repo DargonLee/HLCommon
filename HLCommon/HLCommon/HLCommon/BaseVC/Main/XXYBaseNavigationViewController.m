@@ -22,7 +22,7 @@
 
 @implementation XXYBaseNavigationViewController
 
-
+// 使用导航栏分类设置透明度的时候 不能做以下设置
 + (void)initialize
 {
     //设置为不透明

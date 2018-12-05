@@ -24,6 +24,9 @@
     if (dataSource.count == 0 || dataSource == nil) {
         return;
     }
+    self.minimumValue = [[_dataSource firstObject] floatValue];
+    self.maximumValue = [[_dataSource lastObject] floatValue];
+    [self setValue:[self.valueStr floatValue] animated:YES];
 }
 
 - (instancetype)init
@@ -34,19 +37,30 @@
     return self;
 }
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self == [super initWithCoder:aDecoder]) {
+        [self setUpUI];
+    }
+    return self;
+}
+
 - (void)setUpUI
 {
-//    [self addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
+    [self setThumbImage:[UIImage imageNamed:@"控件"] forState:UIControlStateNormal];
+    self.minimumTrackTintColor = [UIColor colorWithHexStr:@"#FFBC49"];
+    self.maximumTrackTintColor = [UIColor whiteColor];
+    
     [self addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
     self.continuous = NO;
     self.popView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"滑动金额"]];
-    _popView.frame = CGRectMake(-10, -40, 50, 30);
+    _popView.frame = CGRectMake(-10, -40, 50, 25);
     _popView.userInteractionEnabled = YES;
     [self addSubview:_popView];
     self.popLb = [[UILabel alloc] init];
     [_popView addSubview:_popLb];
-    _popLb.frame = CGRectMake(0, 0, 50, 30);
-//    _popLb.textColor = SYSTEM_COLOR;
+    _popLb.frame = self.popView.bounds;
+    _popLb.textColor = [UIColor whiteColor];
     _popLb.text = [NSString stringWithFormat:@"%ld",(long)self.minimumValue];
     _popLb.textAlignment = NSTextAlignmentCenter;
     NSMutableArray * imgViews = [NSMutableArray array];
@@ -60,7 +74,7 @@
 
 - (CGRect)trackRectForBounds:(CGRect)bounds
 {
-    return CGRectMake(0, 0, CGRectGetWidth(self.frame), 7);
+    return CGRectMake(0, 0, CGRectGetWidth(self.frame), 5);
 }
 
 - (void)setValue:(float)value animated:(BOOL)animated
@@ -102,7 +116,7 @@
     rect.size.height = rect.size.height + 40;
     CGRect insetRect = CGRectInset ([super thumbRectForBounds:bounds trackRect:rect value:value], 10 ,10);
     CGFloat x = bounds.origin.x - ((50 - 29)/2);
-    _popView.frame = CGRectMake(x, -43, 50, 30);
+    _popView.frame = CGRectMake(x, -40, 50, 30);
     return insetRect;
 }
 
